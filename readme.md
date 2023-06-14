@@ -15,13 +15,15 @@ Original instructions can be found at:
 - <https://developer.android.com/courses>
 	- [Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course)
 
-Individual projects can be imported into [Android Studio](https://developer.android.com/studio) and where origianlly built using:
+Individual projects can be imported into [Android Studio](https://developer.android.com/studio) and were origianlly built using:
 
 ### Version Info
 
-- Android Studio Flamingo: 2022.2.1 Patch 2
-- Java:&emsp;&emsp;&emsp;&emsp;&emsp;17.0.6 2023-01-17 LTS
-- Kotlin:&emsp;&emsp;&emsp;&emsp;&ensp;1.8.10
-- Gradle:&emsp;&emsp;&emsp;&emsp;&ensp;8.1.1
-- Groovy:&emsp;&emsp;&emsp;&emsp;&ensp;3.0.15
-- Ant:&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;1.10.11
+| Component       | Version                     |
+|:----------------|:----------------------------|
+| Android Studio: | Flamingo - 2022.2.1 Patch 2 |
+| Java:           | 17.0.6 2023-01-17 LTS       |
+| Kotlin:         | 1.8.0                       |
+| Gradle:         | 8.1.1                       |
+| Groovy:         | 3.0.15                      |
+| Ant:            | 1.10.11                     |
