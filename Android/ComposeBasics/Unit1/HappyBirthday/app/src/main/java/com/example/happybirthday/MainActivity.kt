@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     GreetingText(
                         message = "Salubrious Salutations",
-                        sender = "The Lord High Commander"
+                        sender = "The Lord High Commander",
                     )
 
                 }
@@ -42,11 +42,19 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+/**
+ * Android composable with two text elements in a column. Formats said elements for use in Birthday
+ * Greeting
+ *
+ * @param message main message for the greeting
+ * @param sender name of the person who is sending the greeting
+ * @param modifier modifiers to pass to the composable
+ */
 @Composable
 fun GreetingText(message: String, sender: String, modifier: Modifier = Modifier) {
     Column(
         verticalArrangement = Arrangement.Center,
-        modifier = modifier.padding(8.dp).background(Color.Green)
+        modifier = modifier.padding(8.dp).background(Color.Green),
     ) {
         Text(
             text = message,
@@ -80,7 +88,7 @@ fun GreetingText(message: String, sender: String, modifier: Modifier = Modifier)
 fun BirthdayCardPreview() {
     HappyBirthdayTheme {
 
-        GreetingText("Happy Birthday Sam!", "Emma Stone")
+        GreetingText("Happy Birthday Sam!", "Emma Stone",)
 //        GreetingText(LoremIpsum(1000).values.joinToString(), "")
     }
 }
