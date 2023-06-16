@@ -93,6 +93,13 @@ fun GreetingText(message: String, sender: String, modifier: Modifier = Modifier)
     }
 }
 
+/**
+ * Android composable to place an image in a box and then invoke GreetingText()
+ *
+ * @param message greeting message to be passed to GreetingText()
+ * @param sender name of person sending the message
+ * @param modifier modifiers to pass to the composable
+ */
 @Composable
 fun GreetingImage(message: String, sender: String, modifier: Modifier = Modifier) {
     val backgroundImage = painterResource(R.drawable.androidparty)
