@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Happy Birthday</string>
+    <string name="happy_birthday_text">Salubrious Salutations</string>
+    <string name="sender">The Lord High Commander</string>
+    <string name="bg_img_description">colorful party background</string>
+    <string name="from">From </string>
 </resources>
