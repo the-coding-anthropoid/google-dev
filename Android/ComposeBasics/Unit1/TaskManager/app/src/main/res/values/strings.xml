@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Task Manager</string>
+    <string name="tasks_completed_image_content_description">
+        Blue tick on circular green background
+    </string>
+    <string name="tasks_completed_text">All tasks completed</string>
+    <string name="tasks_completed_affirmation">Nice work!</string>
+    <string name="tasks_failed_image_content_description">
+        Yellow cross on a circular puce background
+    </string>
+    <string name="tasks_failed_text">Task completion failed!</string>
+    <string name="tasks_failed_affirmation">Better luck next time</string>
+</resources>
